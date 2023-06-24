@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-slate-100;
+}
+
+.active {
+  @apply bg-gray-100 px-4 py-2;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: #cfcfcf;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7f8c8d;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9f9f9;
+}
